@@ -43,6 +43,7 @@ header ul {
     padding: 20px;
     margin: auto;
     font-size: 25px;
+    box-sizing: border-box;
 }
 .intro img {
     max-width: 650px;
@@ -63,7 +64,7 @@ header ul {
     background-color: #556B2F;
     color: #FAFAD2;
     height: 300px;
-    padding: 20px;
+    padding: 10px;
 }
 .members h1 {
     font-family: 'Bilbo', cursive;
@@ -91,3 +92,17 @@ header ul {
     border-radius: 25px;
 }
 
+.quote {
+    background-color: rgba(85, 107, 47, 0.2);
+    padding: 50px;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+.author {
+    text-align: right;
+    font-weight: bold;
+}
+
+.calltoaction {
+    
+}
