@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bilbo&family=PT+Sans&display=swap');
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'PT Sans', sans-serif;
     margin: 0;
 }
 ul {
@@ -20,6 +21,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 5px;
+    font-size: 25px;
 }
 header img {
     width: 60px;
@@ -33,3 +35,29 @@ header ul {
     padding: 0;
 }
 
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+.intro {
+    display: flex;
+    background-color: rgba(85, 107, 47, 0.2);
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 25px;
+}
+.intro img {
+    max-width: 650px;
+    height: 350px;
+    padding: 5px;
+}
+.intro h1 {
+    font-family: 'Bilbo', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0;
+}
+.text p {
+    padding: 5px; 
+}
